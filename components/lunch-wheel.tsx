@@ -14,21 +14,21 @@ const DEFAULT_OPTIONS = [
 ];
 
 const SEGMENT_COLORS = [
-  "#ff7a59",
-  "#ffb347",
-  "#ffd166",
-  "#7bd389",
-  "#56cfe1",
-  "#5a8dee",
-  "#9b5de5",
-  "#f15bb5"
+  "#ff7a2f",
+  "#ff8f3f",
+  "#ffa24f",
+  "#ffb460",
+  "#ffc572",
+  "#ff9548",
+  "#ff8534",
+  "#ffad5a"
 ];
 
 const SPIN_DURATION_MS = 4800;
 
 function buildGradient(options: string[]) {
   if (options.length === 0) {
-    return "linear-gradient(135deg, #dbe4ff, #edf2ff)";
+    return "linear-gradient(135deg, #ffe2c2, #fff1df)";
   }
 
   const segment = 360 / options.length;
